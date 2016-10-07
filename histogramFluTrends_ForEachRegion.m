@@ -3,8 +3,8 @@
 [X, regionNames] = loadFluTrendsData();
 
 figure;
-% Display side-by-side histograms of illness
-% frequencies for each region.
+% Display a histogram of each region's
+% illness frequencies.
 hist(X);
 xlabel('Estimated flu-like illness frequencies');
 ylabel('Number of occurrences of that frequency');
